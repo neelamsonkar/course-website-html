@@ -1,11 +1,60 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <title>Contact</title>
 </head>
+
 <body>
-    
+    <header>
+        <a href="index.html"><img src="../Multimedia/new_cn_logo.svg" alt="coding-ninja-logo"/></a> <br/><br/>
+
+    </header>
+    <hr>
+    <section id="contact">
+        <h2>
+            Contact Details
+        </h2>
+        <p>
+            For inquiries , you can reach us via email or phone:
+        </p>
+        <p>
+            Email: <a href="mailto:contact@codingninjas.com">contact@codingninjas.com</a>
+        </p>
+        <p>Phone : <a href="tel:1800-123-3598">1800-123-3598</a></p>
+    </section>
+    <hr>
+    <section id="map">
+        <h2>Location Map</h2>
+        <iframe
+            src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d224568.4763546291!2d76.82526769385703!3d28.422803844870533!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x390d03d1c62ba76b%3A0xec4dbad7537d963b!2sCoding%20Ninjas!5e0!3m2!1sen!2sin!4v1759752560061!5m2!1sen!2sin"
+            width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy"
+            referrerpolicy="no-referrer-when-downgrade"></iframe>
+    </section>
+    <hr>
+    <section id="feedbackform">
+        <br/>
+        <form id="feedback" method="post">
+            <fieldset>
+                <legend><strong>Feedback Form</strong> </legend>
+                <label for="fname"> Name : </label>
+                <input type="text" id="fname" name="fname" required /> <br/> <br/>
+
+                <label for="email"> Email : </label>
+                <input type="email" name="email" id="email" required /> <br/>
+                <br/>
+
+                <label for="subject"> Subject : </label>
+                <input type="text" name="subject" id="subject" required /> <br/>
+                <br/>
+                <label for="msg"> Message : </label>
+                <textarea name="msg" id="msg" rows="4" required></textarea><br/> <br/>
+                <button type="submit">Submit</button>
+
+    </section>
+
 </body>
+
 </html>

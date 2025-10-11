@@ -9,45 +9,46 @@
 
 <body>
     <header>
-        <img src="../Multimedia/new_cn_logo.svg" alt="logo" />
+        <a href="index.html"> <img src="../Multimedia/new_cn_logo.svg" alt="coding-ninja-logo"/></a> <br/><br/>
+
     </header>
     <section>
         <h1>Create an Account</h1>
-        <form id="registerForm">
+        <form id="registerForm" method="post">
             <fieldset>
                 <legend>Personal Information</legend>
                 <label for="fname"> Full Name : </label>
-                <input type="text" id="fname" name="fname" /> <br> <br>
+                <input type="text" id="fname" name="fname" /> <br/> <br/>
 
                 <label for="email"> Email : </label>
-                <input type="email" name="email" id="email" /> <br>
-                <br>
+                <input type="email" name="email" id="email" /> <br/>
+                <br/>
 
                 <label for="uname"> Username : </label>
-                <input type="text" id="uname" name="uname" /> <br> <br>
+                <input type="text" id="uname" name="uname" /> <br/> <br/>
 
                 <label for="password"> Password : </label>
-                <input type="password" name="password" id="password" /> <br>
-                <br>
-    
-        <label for="utype"> User Type : </label>
-        <select id="#utype" aria-placeholder="Select user type">
+                <input type="password" name="password" id="password" /> <br/>
+                <br/>
 
-            <option >Proffesional</option>
-            <option>Student</option>
-            <option>Graduation</option>
-            <option>Other</option>
-        </select><br> <br>
-        <label for="uname"> Select Course : </label>
-        <select id="#utype">
+                <label for="utype"> User Type : </label>
+                <select id="utype" name="utype" aria-placeholder="Select user type">
 
-            <option>Course 1 - Web Development</option>
-            <option>Course 2 - Digital Marketing</option>
-            <option>Course 3 - Android Development</option>
-            <option>Course 4 - Data Scrience </option>
-        </select><br> <br>
 
-        <button type="submit">Register</button>
+                    <option value="student">Student</option>
+                    <option value="instructor">Instructors</option>
+                    <option>Other</option>
+                </select><br/> <br/>
+                <label for="coursetype"> Select Course : </label>
+                <select id="coursetype" name="coursetype">
+
+                    <option value="course1">Course 1 - Web Development</option>
+                    <option value="course2">Course 2 - Data Scrience</option>
+                    <option value="course3">Course 3 - Android Development</option>
+                    <option value="course4">Course 4 - Digital Marketing</option>
+                </select><br/> <br/>
+
+                <button type="submit">Register</button>
     </section>
 
     </fieldset>
